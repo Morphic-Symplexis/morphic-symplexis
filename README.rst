@@ -1,7 +1,7 @@
 morphic-symplexis
 =========================
 
-.. image:: https://img.shields.io/badge/License-Apache%202.0-lightgray.svg
+.. image:: https://img.shields.io/badge/License-Apache%202.0-lightblue.svg
   :target: LICENSE
   :alt: License
 |

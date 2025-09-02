@@ -1,3 +1,10 @@
+
+# Ignore the following files and (sub)directories:
+.DS_Store
+.idea
+
+# Do NOT ignore the following files and (sub)directories:
+
 .*.aux
 .*.d
 *.a

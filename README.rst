@@ -6,7 +6,7 @@ morphic-symplexis
   :alt: License
 |
 
-**Summary:** ``morphic-symplexis`` is a framework for formalizing systems, theories and metatheories using Lean and Rocq (formerly Coq).
+**Summary:** ``morphic-symplexis`` is a framework for formalizing categories, theories and metatheories in Lean, Rocq (formerly Coq), C# and F#.
 
 |
 
@@ -17,7 +17,7 @@ morphic-symplexis
 About
 -------------------------
 
-This repository was implemented using **Lean** and **Rocq** (formerly Coq).
+This repository was implemented using **Lean4**, **Rocq** (formerly Coq), **C#** and **F#**.
 
 Downloading
 -------------------------

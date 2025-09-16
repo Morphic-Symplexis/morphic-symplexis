@@ -12,7 +12,7 @@ C# and F# library (.NET)
 |
 
 About
--------------------------
+---------------------------------
 
 This library demonstrates computational *definitions* (i.e. models) and *compositions* of various **categories** using both C# and F# within a single .NET solution, including *interoperability* between the two languages. It aims to provide a solid foundation for representing, experimenting with, and extending **category-theoretic structures** and **system-theoretic constructions** (e.g., *universal construction*, *ambient construction*, *hierarchical architectures*) for modelling categories, morphisms and (categorical) objects within a .NET environment. The goal is not merely to implement abstract definitions, but also to provide concrete examples, tools, and reusable components that can serve educational and research purposes.
 
@@ -20,7 +20,7 @@ The library was implemented in **C#** and **F#** using the `.NET Core 6.0.428 <h
 
 
 Folder structure
--------------------------
+---------------------------------
 
 The following **folder structure** is used:
 
@@ -43,7 +43,7 @@ The following **folder structure** is used:
       └── MorphicSymplexis.sln
 
 Folder roles
--------------------------
+---------------------------------
 
 Following the good practice of *separation of concerns*, each folder serves a different role, as explained below.
 
@@ -89,6 +89,23 @@ Legend:
   "Optional" = indirect or optional use   |br|
   ``.csx`` and ``.fsx`` are C# and F# single script files, respectively
 
+Roadmap and Functionalities
+---------------------------------
+
+Below is an outline of *currently implemented* and *planned* **category-theoretic structures**, along with their corresponding **system-theoretic constructions**:
+
+- **General definitions**
+    - ☑ Definition of a category (as an Interface)
+    - ☑ Three axioms: existence of morphisms, identity, and composition (i.e. associativity)
+- **Free categories**
+    - ☑ Definition of a free category (as an Abstract Class)
+    - ☑ Construction of directed multigraphs (i.e. quivers)
+    - ☑ Path composition and simplification (i.e. reduction)
+- **Non-free categories**
+    - ☐ Reduction of the multigraph with algebraic equivalences imposed
+- **Examples**
+    - ☐ Examples of various free categories
+    - ☐ Examples of various non-free categories
 
 .. |br| raw:: html
 

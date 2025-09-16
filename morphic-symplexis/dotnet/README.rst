@@ -122,7 +122,7 @@ Below is an outline of *currently implemented* and *planned* **category-theoreti
     - ☐ Pullbacks and pushouts
     - ☐ Initial and terminal objects
     - ☐ Equalizers and coequalizers
-    - ☐ Adjunctions
+    - ☐ Adjunctions (i.e. left and right adjoint functors)
 - **Ambient constructions**
     - ☐ Topos
     - ☐ Enriched Category

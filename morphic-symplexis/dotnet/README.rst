@@ -96,13 +96,19 @@ Below is an outline of *currently implemented* and *planned* **category-theoreti
 
 - **General definitions**
     - ☑ Definition of a category (as an Interface)
-    - ☑ Three axioms: existence of morphisms, identity, and composition (i.e. associativity)
+    - ☑ Three axioms: existence of morphisms, identity, and composition (i.e. associativity and unitality)
 - **Free categories**
     - ☑ Definition of a free category (as an Abstract Class)
     - ☑ Construction of directed multigraphs (i.e. quivers)
     - ☑ Path composition and simplification (i.e. reduction)
 - **Non-free categories**
     - ☐ Reduction of the multigraph with algebraic equivalences imposed
+- **Functors**
+    - ☐ Definition of a functor using an index category
+- **Constructions**
+    - ☐ Universal construciton
+    - ☐ Ambient construciton
+    - ☐ Hierarchical architecture
 - **Examples**
     - ☐ Examples of various free categories
     - ☐ Examples of various non-free categories

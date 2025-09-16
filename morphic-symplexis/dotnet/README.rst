@@ -62,7 +62,7 @@ The C# project folder does not contain any F# code implementation, and similarly
 Example folders
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
-**Purpose:** Provide examples implemented using (a) *purely* C# code (optionally calling F#), (b) *purely* F# code (optionally calling C#), and (c) a mix-and-match of C# and F# code jointly implemented. Also, provide quick scripts for lightweight experimentation without the need to create any projects.
+**Purpose:** Provide examples implemented using (a) *purely* C# code (optionally calling F#), (b) *purely* F# code (optionally calling C#), and (c) a mix-and-match of C# and F# code jointly implemented. Also, provide *quick scripts* (i.e. standalone files) for lightweight experimentation without the need to create any projects.
 
 The ``examples/`` folder contains examples implemented using C# and F# code organized in subfolders by language and usage. The table below outlines the purpose of each folder, and how it interacts with the C# and F# libraries.
 
@@ -71,23 +71,23 @@ The ``examples/`` folder contains examples implemented using C# and F# code orga
 +----------------------------+----------------+----------------+---------------------+---------------------+---------------------------------------------------+
 | Folder Name                | Contains .cs   | Contains .fs   | Calls C# library    | Calls F# library    | Purpose                                           |
 +============================+================+================+=====================+=====================+===================================================+
-| ``Examples.CSharp/``       | Yes            | No             | Yes                 | Optional            | Pure C# examples. May optionally call F# code.    |
+| ``Examples.CSharp/``       | ✔              |                | ✔                   | Optional            | Pure C# examples. May optionally call F# code.    |
 +----------------------------+----------------+----------------+---------------------+---------------------+---------------------------------------------------+
-| ``Examples.FSharp/``       | No             | Yes            | Optional            | Yes                 | Pure F# examples. May optionally call C# code.    |
+| ``Examples.FSharp/``       |                | ✔              | Optional            | ✔                   | Pure F# examples. May optionally call C# code.    |
 +----------------------------+----------------+----------------+---------------------+---------------------+---------------------------------------------------+
-| ``Examples.Mixed/``        | Yes            | Yes            | Yes                 | Yes                 | Mixed-language examples demonstrating interop.    |
+| ``Examples.Mixed/``        | ✔              | ✔              | ✔                   | ✔                   | Mixed-language examples demonstrating interop.    |
 +----------------------------+----------------+----------------+---------------------+---------------------+---------------------------------------------------+
-| ``scripts/csharp/``        | Yes (.csx)     | No             | Yes                 | No                  | C# scripts using `.csx` files.                    |
+| ``scripts/csharp/``        | ✔   (.csx)     |                | ✔                   |                     | C# scripts using `.csx` files.                    |
 +----------------------------+----------------+----------------+---------------------+---------------------+---------------------------------------------------+
-| ``scripts/fsharp/``        | No             | Yes (.fsx)     | No                  | Yes                 | F# scripts using `.fsx` files.                    |
+| ``scripts/fsharp/``        |                | ✔   (.fsx)     |                     | ✔                   | F# scripts using `.fsx` files.                    |
 +----------------------------+----------------+----------------+---------------------+---------------------+---------------------------------------------------+
-| ``scripts/shared/``        | No             | No             | No                  | No                  | Shared files (e.g., JSON, configs, inputs).       |
+| ``scripts/shared/``        |                |                |                     |                     | Shared files (e.g., JSON, configs, inputs).       |
 +----------------------------+----------------+----------------+---------------------+---------------------+---------------------------------------------------+
 
 Legend:
-  "Yes" = direct usage   |br|
+  "✔" = direct usage   |br|
   "Optional" = indirect or optional use   |br|
-  ``.csx`` and ``.fsx`` are C# and F# script files, respectively
+  ``.csx`` and ``.fsx`` are C# and F# single script files, respectively
 
 
 .. |br| raw:: html

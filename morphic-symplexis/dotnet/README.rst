@@ -3,7 +3,7 @@ C# and F# library (.NET)
 
 |
 
-**Summary:** This is a C# and F# library implemented using the .NET Core framework.
+**Summary:** This is a C# and F# library for **Category Theory** implemented using the .NET Core framework.
 
 |
 
@@ -14,7 +14,7 @@ C# and F# library (.NET)
 About
 -------------------------
 
-This library was implemented using **C#** and **F#** (using `.NET Core 6.0.428 <https://dotnet.microsoft.com/en-us/download/dotnet/6.0>`_).
+This library was implemented in **C#** and **F#** using the `.NET Core 6.0.428 <https://dotnet.microsoft.com/en-us/download/dotnet/6.0>`_ framework. Given backward compatibility by the .NET maintainers, the library should work with any later version of .NET Core, so there is no need to downgrade its version if you have already installed a later version.
 
 Folder structure
 -------------------------

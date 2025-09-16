@@ -42,14 +42,17 @@ The following **folder structure** is used:
 Folder roles
 -------------------------
 
+Following the good practice of *separation of concerns*, each folder serves a different role, as explained below.
 
 Library folders
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
-
+**Purpose:** Implement the .NET library using C# and F# *separately* via two distinct project folders.
 
 Example folders
 ^^^^^^^^^^^^^^^^^^^^^^^^^
+
+**Purpose:** Provide examples implemented using (a) *purely* C# code (optionally calling F#), (b) *purely* F# code (optionally calling C#), and (c) a mix-and-match of C# and F# code jointly implemented. Also, provide quick scripts without creating projects for lightweight experimentation.
 
 .. |br| raw:: html
 

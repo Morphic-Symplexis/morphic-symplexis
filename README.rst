@@ -17,7 +17,7 @@ morphic-symplexis
 About
 -------------------------
 
-This repository was implemented using **Lean4**, **Rocq** (formerly Coq), **C#** and **F#**.
+This repository was implemented using **Lean4**, **Rocq** (formerly Coq), **C#** and **F#** (using `.NET Core 6.0.428 <https://dotnet.microsoft.com/en-us/download/dotnet/6.0>`_).
 
 Downloading
 -------------------------

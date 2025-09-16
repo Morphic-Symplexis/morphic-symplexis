@@ -16,7 +16,7 @@ About
 
 This library demonstrates computational *definitions* (i.e. models) and *compositions* of various **categories** using both C# and F# within a single .NET solution, including *interoperability* between the two languages.
 
-The library was implemented in **C#** and **F#** using the `.NET Core 6.0.428 <https://dotnet.microsoft.com/en-us/download/dotnet/6.0>`_ framework. Given backward compatibility by the .NET maintainers, the library should work with any later version of .NET Core, so there is no need to downgrade its version if you have already installed a later version.
+The library was implemented in **C#** and **F#** using the `.NET Core 6.0.428 <https://dotnet.microsoft.com/en-us/download/dotnet/6.0>`_ framework. Given backward compatibility by the .NET maintainers, the library should work with *any later version* of .NET Core, so there is *no need to downgrade* its version if you have already installed a later version.
 
 
 Folder structure
@@ -57,15 +57,38 @@ The main **library folders** used in the .NET implementation of ``morphic-symple
 - ``MorphicSymplexis.CSharp/`` – C# project folder
 - ``MorphicSymplexis.FSharp/`` – F# project folder
 
-The C# project folder does not contain any F# code implementation, and similarly, the F# project folder does not contain any C# code implementation. However, each project folder optionally calls APIs implemented in other languages.
+The C# project folder does not contain any F# code implementation, and similarly, the F# project folder does not contain any C# code implementation. However, each project folder *optionally* calls APIs implemented in other languages.
 
 Example folders
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
-**Purpose:** Provide examples implemented using (a) *purely* C# code (optionally calling F#), (b) *purely* F# code (optionally calling C#), and (c) a mix-and-match of C# and F# code jointly implemented. Also, provide quick scripts without creating projects for lightweight experimentation.
+**Purpose:** Provide examples implemented using (a) *purely* C# code (optionally calling F#), (b) *purely* F# code (optionally calling C#), and (c) a mix-and-match of C# and F# code jointly implemented. Also, provide quick scripts for lightweight experimentation without the need to create any projects.
 
-The ``examples/`` folder contains examples implemented using C# and F# code organized in subfolders by language and usage.
-The table below outlines the purpose of each folder and how it interacts with the C# and F# libraries.
+The ``examples/`` folder contains examples implemented using C# and F# code organized in subfolders by language and usage. The table below outlines the purpose of each folder, and how it interacts with the C# and F# libraries.
+
+|br|
+
++----------------------------+----------------+----------------+---------------------+---------------------+---------------------------------------------------+
+| Folder Name                | Contains .cs   | Contains .fs   | Calls C# library    | Calls F# library    | Purpose                                           |
++============================+================+================+=====================+=====================+===================================================+
+| ``Examples.CSharp/``       | Yes            | No             | Yes                 | Optional            | Pure C# examples. May optionally call F# code.    |
++----------------------------+----------------+----------------+---------------------+---------------------+---------------------------------------------------+
+| ``Examples.FSharp/``       | No             | Yes            | Optional            | Yes                 | Pure F# examples. May optionally call C# code.    |
++----------------------------+----------------+----------------+---------------------+---------------------+---------------------------------------------------+
+| ``Examples.Mixed/``        | Yes            | Yes            | Yes                 | Yes                 | Mixed-language examples demonstrating interop.    |
++----------------------------+----------------+----------------+---------------------+---------------------+---------------------------------------------------+
+| ``scripts/csharp/``        | Yes (.csx)     | No             | Yes                 | No                  | C# scripts using `.csx` files.                    |
++----------------------------+----------------+----------------+---------------------+---------------------+---------------------------------------------------+
+| ``scripts/fsharp/``        | No             | Yes (.fsx)     | No                  | Yes                 | F# scripts using `.fsx` files.                    |
++----------------------------+----------------+----------------+---------------------+---------------------+---------------------------------------------------+
+| ``scripts/shared/``        | No             | No             | No                  | No                  | Shared files (e.g., JSON, configs, inputs).       |
++----------------------------+----------------+----------------+---------------------+---------------------+---------------------------------------------------+
+
+Legend:
+  "Yes" = direct usage   |br|
+  "Optional" = indirect or optional use   |br|
+  ``.csx`` and ``.fsx`` are C# and F# script files, respectively
+
 
 .. |br| raw:: html
 

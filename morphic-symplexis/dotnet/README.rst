@@ -114,6 +114,8 @@ Below is an outline of *currently implemented* and *planned* **category-theoreti
     - ☐ Fibration
     - ☐ Contravariant functor
     - ☐ Hom functor
+- **Natural transformations**
+    - ☐ Definition of a natural transformations
 - **Universal constructions**
     - ☐ Limits and colimits
     - ☐ Products and coproducts

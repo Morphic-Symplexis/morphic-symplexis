@@ -14,7 +14,10 @@ C# and F# library (.NET)
 About
 -------------------------
 
-This library was implemented in **C#** and **F#** using the `.NET Core 6.0.428 <https://dotnet.microsoft.com/en-us/download/dotnet/6.0>`_ framework. Given backward compatibility by the .NET maintainers, the library should work with any later version of .NET Core, so there is no need to downgrade its version if you have already installed a later version.
+This library demonstrates computational *definitions* (i.e. models) and *compositions* of various **categories** using both C# and F# within a single .NET solution, including *interoperability* between the two languages.
+
+The library was implemented in **C#** and **F#** using the `.NET Core 6.0.428 <https://dotnet.microsoft.com/en-us/download/dotnet/6.0>`_ framework. Given backward compatibility by the .NET maintainers, the library should work with any later version of .NET Core, so there is no need to downgrade its version if you have already installed a later version.
+
 
 Folder structure
 -------------------------
@@ -49,10 +52,20 @@ Library folders
 
 **Purpose:** Implement the .NET library using C# and F# *separately* via two distinct project folders.
 
+The main **library folders** used in the .NET implementation of ``morphic-symplexis`` are:
+
+- ``MorphicSymplexis.CSharp/`` – C# project folder
+- ``MorphicSymplexis.FSharp/`` – F# project folder
+
+The C# project folder does not contain any F# code implementation, and similarly, the F# project folder does not contain any C# code implementation. However, each project folder optionally calls APIs implemented in other languages.
+
 Example folders
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
 **Purpose:** Provide examples implemented using (a) *purely* C# code (optionally calling F#), (b) *purely* F# code (optionally calling C#), and (c) a mix-and-match of C# and F# code jointly implemented. Also, provide quick scripts without creating projects for lightweight experimentation.
+
+The ``examples/`` folder contains examples implemented using C# and F# code organized in subfolders by language and usage.
+The table below outlines the purpose of each folder and how it interacts with the C# and F# libraries.
 
 .. |br| raw:: html
 

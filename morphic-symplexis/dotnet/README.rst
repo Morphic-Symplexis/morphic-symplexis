@@ -103,15 +103,31 @@ Below is an outline of *currently implemented* and *planned* **category-theoreti
     - ☑ Path composition and simplification (i.e. reduction)
 - **Non-free categories**
     - ☐ Reduction of the multigraph with algebraic equivalences imposed
-- **Functors**
-    - ☐ Definition of a functor using an index category
-- **Constructions**
-    - ☐ Universal construciton
-    - ☐ Ambient construciton
-    - ☐ Hierarchical architecture
+- **Types of morphisms**
+    - ☐ Monomorphisms and special cases (e.g., sections)
+    - ☐ Epimorphisms and special cases (e.g., retractions)
+    - ☐ Bimorphisms
+    - ☐ Isomorphisms
+- **Functors and cofunctors**
+    - ☐ Definition of a functor using an indexed category
+    - ☐ Detection of commutativity in a configuration (i.e. diagrammatic setup) of a category
+    - ☐ Contravariant functor
+    - ☐ Hom functor
+- **Universal constructions**
+    - ☐ Limits and colimits
+    - ☐ Products and coproducts
+    - ☐ Pullbacks and pushouts
+    - ☐ Initial and terminal objects
+    - ☐ Equalizers and coequalizers
+    - ☐ Adjunctions
+- **Ambient constructions**
+    - ☐ Topos
+    - ☐ Enriched Category
+- **Hierarchical architectures**
+    - ☐ Multi-layer architectures
 - **Examples**
-    - ☐ Examples of various free categories
-    - ☐ Examples of various non-free categories
+    - ☐ Examples of various configurations in a free category
+    - ☐ Examples of various configurations in a non-free category
 
 .. |br| raw:: html
 

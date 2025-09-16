@@ -24,7 +24,7 @@ Downloading
 
 To download this repository, there are currently two mains options:
 
-- Clone the repository either using `GitHub Desktop <https://desktop.github.com/>`_ or using the `command line (terminal) <https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository>`_ :
+- Clone the repository using either `GitHub Desktop <https://desktop.github.com/>`_ or the `command line (terminal) <https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository>`_ :
 
   .. code::
 

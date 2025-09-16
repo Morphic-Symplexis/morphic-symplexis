@@ -25,13 +25,31 @@ The following **folder structure** is used:
 
   dotnet/
   └── MorphicSymplexis/
+      ├── examples/
+      │   ├── Examples.CSharp/        # .cs files, optionally calling F#
+      │   ├── Examples.FSharp/        # .fs files, optionally calling C#
+      │   ├── Examples.Mixed/         # .cs and .fs files
+      │   └──scripts/
+      │       ├── csharp/             # .csx files
+      │       ├── fsharp/             # .fsx files
+      │       └── shared/             # .json files and other file types
       ├── MorphicSymplexis.CSharp/
       │   └── MorphicSymplexis.CSharp.csproj
       ├── MorphicSymplexis.FSharp/
       │   └── MorphicSymplexis.FSharp.fsproj
       └── MorphicSymplexis.sln
 
+Folder roles
+-------------------------
 
+
+Library folders
+^^^^^^^^^^^^^^^^^^^^^^^^^
+
+
+
+Example folders
+^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. |br| raw:: html
 

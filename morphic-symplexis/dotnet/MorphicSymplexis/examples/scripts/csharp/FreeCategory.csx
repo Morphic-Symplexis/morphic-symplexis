@@ -94,6 +94,14 @@ Console.WriteLine("\nCalling C# library from a stand-alone script ...");
 // A concrete subclass (implementing an abstract class) for a free category over strings
 public class MyFreeCategory : FreeCategory<string, string> { }
 
+// int n_objects = Args.Count > 0 ? int.Parse(Args[0]) : 4;
+
+var flags = ArgParser.Parse(Args);
+int n_objects = ArgParser.Get(flags, "n_obj", 4);
+bool verbose = ArgParser.Get(flags, "verbose", false);
+
+if (verbose)
+    Console.WriteLine($"\n[DEBUG] Parsed n_obj = {n_objects}");
+
 // === Run main ===
-int numObjects = Args.Count > 0 ? int.Parse(Args[0]) : 4;
-ConstructFreeCategory(numObjects);
+ConstructFreeCategory(n_objects);

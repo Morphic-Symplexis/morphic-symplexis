@@ -122,8 +122,11 @@ Below is an outline of *currently implemented* and *planned* **category-theoreti
     - ☐ Hom-functor
     - ☐ Representative functor
     - ☐ Presheaves and sheaves
+    - ☐ Profunctor
 - **Natural transformations**
     - ☐ Definition of a natural transformations
+    - ☐ Functor category
+    - ☐ 2-category
 - **Monad and comonads**
     - ☐ Monads and comonads
     - ☐ Monoidal categories (i.e. monoids as objects)

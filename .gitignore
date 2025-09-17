@@ -98,13 +98,6 @@ global.json
 *.mdb
 *.dmp
 
-# OS and file system junk
-Thumbs.db
-ehthumbs.db
-Desktop.ini
-$RECYCLE.BIN/
-*.lnk
-
 # Mac bundle stuff
 *.dmg
 *.app
@@ -135,3 +128,29 @@ Icon[]
 Network Trash Folder
 Temporary Items
 .apdisk
+
+# content below from: https://github.com/github/gitignore/blob/main/Global/Windows.gitignore
+# Windows thumbnail cache files
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+
+# Dump file
+*.stackdump
+
+# Folder config file
+[Dd]esktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+
+# Windows shortcuts
+*.lnk

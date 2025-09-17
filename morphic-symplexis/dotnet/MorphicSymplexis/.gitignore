@@ -11,3 +11,17 @@ autom4te.cache/
 tarballs/
 test-results/
 .vscode/
+
+# VS for Mac
+MonoDevelop/
+monodevelop/
+
+# NuGet
+packages/
+
+# Build outputs (by IDEs)
+bin/
+obj/
+[Bb]uild/
+[Ll]og/
+artifacts/

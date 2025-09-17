@@ -133,6 +133,7 @@ Below is an outline of *currently implemented* and *planned* **category-theoreti
     - ☐ Monads and comonads
     - ☐ Monoidal categories (i.e. monoids as objects)
     - ☐ Kleisli and co-Kleisli (Eilenberg-Moore) categories
+    - ☐ Categories of algebras and coalgebras
 - **Universal constructions**
     - ☐ General definition of limits and colimits
     - ☐ Products and coproducts

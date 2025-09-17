@@ -116,13 +116,14 @@ Below is an outline of *currently implemented* and *planned* **category-theoreti
 - **Functors and cofunctors**
     - ☐ Definition of a functor using an indexed category
     - ☐ Detection of commutativity in a configuration (i.e. diagrammatic setup) of a category
-    - ☐ Fibration
+    - ☐ Fibrations and opfibrations
     - ☐ Covariant functor
     - ☐ Contravariant functor (i.e. cofunctor)
     - ☐ Hom-functor
     - ☐ Representative functor
     - ☐ Presheaves and sheaves
     - ☐ Profunctor
+    - ☐ Bifunctor and co-bifunctor
 - **Natural transformations**
     - ☐ Definition of a natural transformations
     - ☐ Functor category

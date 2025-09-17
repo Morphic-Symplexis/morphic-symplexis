@@ -92,10 +92,10 @@ Legend:
 Roadmap and Functionalities
 ---------------------------------
 
-Below is an outline of *currently implemented* and *planned* **category-theoretic structures**, along with their corresponding **system-theoretic constructions**:
-
 C# library
 ^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Below is an outline of *currently implemented* and *planned* **category-theoretic structures**, along with their corresponding **system-theoretic constructions**:
 
 - **General definitions**
     - ☑ Definition of a category (as an Interface)
@@ -133,8 +133,14 @@ C# library
 - **Hierarchical architectures**
     - ☐ Multi-layer architectures
 - **Examples**
-    - ☐ Examples of various configurations in a free category
+    - ☑ Examples of various configurations in a free category
     - ☐ Examples of various configurations in a non-free category
+|br|
+
+Below is an outline of *currently implemented* and *planned* **functionalities** (such as helper classes and utils):
+
+- **ArgParser**
+    - ☑ Definition of a very minimal ArgParser class to parse flags in ``.csx`` scripts
 
 F# library
 ^^^^^^^^^^^^^^^^^^^^^^^^^

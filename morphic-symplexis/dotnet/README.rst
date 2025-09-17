@@ -135,6 +135,7 @@ Below is an outline of *currently implemented* and *planned* **category-theoreti
     - ☐ Equalizers and coequalizers
     - ☐ Algebras and coalgebras
     - ☐ Adjunctions (i.e. left and right adjoint functors)
+    - ☐ Left and right Kan extensions
 - **Ambient constructions**
     - ☐ Topos
     - ☐ Enriched category

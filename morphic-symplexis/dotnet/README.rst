@@ -100,6 +100,8 @@ Below is an outline of *currently implemented* and *planned* **category-theoreti
 - **General definitions**
     - ☑ Definition of a category (as an Interface)
     - ☑ Three axioms: existence of morphisms, identity, and composition (i.e. associativity and unitality)
+- **Single-object category**
+    - ☐ Monoid as a category
 - **Free categories**
     - ☑ Definition of a free category (as an Abstract Class)
     - ☑ Construction of directed multigraphs (i.e. quivers)
@@ -115,16 +117,23 @@ Below is an outline of *currently implemented* and *planned* **category-theoreti
     - ☐ Definition of a functor using an indexed category
     - ☐ Detection of commutativity in a configuration (i.e. diagrammatic setup) of a category
     - ☐ Fibration
+    - ☐ Covariant functor
     - ☐ Contravariant functor
-    - ☐ Hom functor
+    - ☐ Hom-functor
+    - ☐ Representative functor
 - **Natural transformations**
     - ☐ Definition of a natural transformations
+- **Monad and comonads**
+    - ☐ Monads and comonads
+    - ☐ Monoidal categories (i.e. monoids as objects)
+    - ☐ Kleisli and co-Kleisli (Eilenberg-Moore) categories
 - **Universal constructions**
     - ☐ Limits and colimits
     - ☐ Products and coproducts
     - ☐ Pullbacks and pushouts
     - ☐ Initial and terminal objects
     - ☐ Equalizers and coequalizers
+    - ☐ Algebras and coalgebras
     - ☐ Adjunctions (i.e. left and right adjoint functors)
 - **Ambient constructions**
     - ☐ Topos

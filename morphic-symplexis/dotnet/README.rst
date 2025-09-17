@@ -147,6 +147,7 @@ Below is an outline of *currently implemented* and *planned* **category-theoreti
     - ☐ Topos
     - ☐ Enriched category
     - ☐ Embedding of a category
+    - ☐ Yoneda and co-Yoneda
 - **Hierarchical architectures**
     - ☐ Multi-layer architectures
 - **Examples**

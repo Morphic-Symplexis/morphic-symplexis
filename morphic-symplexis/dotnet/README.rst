@@ -140,6 +140,7 @@ Below is an outline of *currently implemented* and *planned* **category-theoreti
     - ☐ Algebras and coalgebras
     - ☐ Ends and coends
     - ☐ Free and cofree objects
+    - ☐ Free and cofree monoid
     - ☐ General definition of adjunctions (i.e. left and right adjoint functors)
     - ☐ Left and right Kan extensions
     - ☐ General definition of exponentiation (i.e. images and coimages)

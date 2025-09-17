@@ -118,9 +118,10 @@ Below is an outline of *currently implemented* and *planned* **category-theoreti
     - ☐ Detection of commutativity in a configuration (i.e. diagrammatic setup) of a category
     - ☐ Fibration
     - ☐ Covariant functor
-    - ☐ Contravariant functor
+    - ☐ Contravariant functor (i.e. cofunctor)
     - ☐ Hom-functor
     - ☐ Representative functor
+    - ☐ Presheaves and sheaves
 - **Natural transformations**
     - ☐ Definition of a natural transformations
 - **Monad and comonads**
@@ -128,14 +129,17 @@ Below is an outline of *currently implemented* and *planned* **category-theoreti
     - ☐ Monoidal categories (i.e. monoids as objects)
     - ☐ Kleisli and co-Kleisli (Eilenberg-Moore) categories
 - **Universal constructions**
-    - ☐ Limits and colimits
+    - ☐ General definition of limits and colimits
     - ☐ Products and coproducts
     - ☐ Pullbacks and pushouts
     - ☐ Initial and terminal objects
     - ☐ Equalizers and coequalizers
     - ☐ Algebras and coalgebras
-    - ☐ Adjunctions (i.e. left and right adjoint functors)
+    - ☐ Ends and coends
+    - ☐ Free and cofree objects
+    - ☐ General definition of adjunctions (i.e. left and right adjoint functors)
     - ☐ Left and right Kan extensions
+    - ☐ General definition of exponentiation (i.e. images and coimages)
 - **Ambient constructions**
     - ☐ Topos
     - ☐ Enriched category

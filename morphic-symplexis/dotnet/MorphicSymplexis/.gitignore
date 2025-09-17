@@ -1,3 +1,5 @@
+# gitignore file for the .NET library in C# and F#
+
 # globs
 Makefile.in
 *.userprefs

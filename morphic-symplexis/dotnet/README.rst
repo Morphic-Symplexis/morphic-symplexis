@@ -94,6 +94,9 @@ Roadmap and Functionalities
 
 Below is an outline of *currently implemented* and *planned* **category-theoretic structures**, along with their corresponding **system-theoretic constructions**:
 
+C# library
+^^^^^^^^^^^^^^^^^^^^^^^^^
+
 - **General definitions**
     - ☑ Definition of a category (as an Interface)
     - ☑ Three axioms: existence of morphisms, identity, and composition (i.e. associativity and unitality)
@@ -132,6 +135,11 @@ Below is an outline of *currently implemented* and *planned* **category-theoreti
 - **Examples**
     - ☐ Examples of various configurations in a free category
     - ☐ Examples of various configurations in a non-free category
+
+F# library
+^^^^^^^^^^^^^^^^^^^^^^^^^
+- TBD
+
 
 .. |br| raw:: html
 

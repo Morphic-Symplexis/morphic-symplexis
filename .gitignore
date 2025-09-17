@@ -1,7 +1,117 @@
 
 # Ignore the following files and (sub)directories:
-.DS_Store
-.idea
-.vs
+
 
 # Do NOT ignore the following files and (sub)directories:
+
+
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+.Spotlight-V100
+.Trashes
+__MACOSX/
+
+# VS Code
+.vscode/
+.history/
+.code-workspace
+
+# JetBrains IDEs (IntelliJ, Rider, etc.)
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+.idea_modules/
+# Rider-specific
+.idea/.idea.Rider*
+.idea/.idea.WebStorm*
+
+# Visual Studio (Windows and Mac)
+.vs/
+.vscode/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.cache
+*.dbmdl
+
+# Build outputs
+bin/
+obj/
+[Bb]uild/
+[Ll]og/
+artifacts/
+
+# NuGet
+*.nupkg
+*.snupkg
+*.nuspec
+packages/
+*.symbols.nupkg
+
+# Dotnet CLI artifacts
+.project/
+*.pidb
+*.svclog
+*.pdb
+
+# Logs
+*.log
+*.tlog
+*.coverage
+*.coveragexml
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.old
+*.swp
+*.swo
+*.orig
+
+# Other tools
+*.ReSharper
+*.resharper
+*.DotSettings.user
+
+# Rider/IntelliJ scratch files
+.idea/shelf/
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/usage.statistics.xml
+.idea/dictionaries
+.idea/httpRequests/
+
+# VS for Mac
+*.pidb
+*.userprefs
+*.userprefs.xml
+MonoDevelop/
+monodevelop/
+
+# Test results
+TestResults/
+*.testhost.dll
+*.trx
+
+# Global JSON file (if not required)
+global.json
+
+# Symbol and debug files
+*.pdb
+*.mdb
+*.dmp
+
+# OS and file system junk
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk

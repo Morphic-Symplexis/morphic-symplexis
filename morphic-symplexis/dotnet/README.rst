@@ -140,7 +140,7 @@ Below is an outline of *currently implemented* and *planned* **category-theoreti
 Below is an outline of *currently implemented* and *planned* **functionalities** (such as helper classes and utils):
 
 - **ArgParser**
-    - ☑ Definition of a very minimal ArgParser class to parse flags in ``.csx`` scripts
+    - ☑ Definition of a very minimal ArgParser class to parse flags inside ``.csx`` scripts
 
 F# library
 ^^^^^^^^^^^^^^^^^^^^^^^^^

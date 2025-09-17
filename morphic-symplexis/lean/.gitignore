@@ -1,0 +1,28 @@
+# gitignore file for the Lean 4 library
+
+# Lean 4 build artifacts
+*.olean
+*.c
+*.o
+*.dynlib
+
+# Lake build system
+/build/
+/.lake/
+/lake-manifest.json
+/lakefile.olean
+
+# Editor and IDE settings
+.vscode/
+.lean/           # optional, used for some cache settings
+
+# Backup & temp files
+*~
+*.swp
+*.tmp
+*.bak
+*.orig
+*.rej
+
+# Logs
+*.log

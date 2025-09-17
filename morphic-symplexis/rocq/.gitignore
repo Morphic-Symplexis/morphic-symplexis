@@ -1,5 +1,34 @@
 # gitignore file for the Rocq library
 
+# Output from `coq_makefile`, dune, or other build tools
+Makefile
+_make/
+_build/
+_build.log
+_build-install/
+_build-deps/
+*.cram
+*.so
+*.exe
+*.cm*       # OCaml native build files
+
+# Dune build system (used in Coq/Rocq ecosystems)
+.dune/
+.dune-config/
+.dune-workspace
+*.install
+
+# Editor files
+*.swp
+*.swo
+*~
+.#*
+*.bak
+
+# IDE or editor settings
+.vscode/
+.idea/
+
 # content below from: https://github.com/github/gitignore/blob/main/Coq.gitignore
 .*.aux
 .*.d

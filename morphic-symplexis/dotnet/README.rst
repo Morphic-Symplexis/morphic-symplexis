@@ -125,7 +125,8 @@ Below is an outline of *currently implemented* and *planned* **category-theoreti
     - ☐ Adjunctions (i.e. left and right adjoint functors)
 - **Ambient constructions**
     - ☐ Topos
-    - ☐ Enriched Category
+    - ☐ Enriched category
+    - ☐ Embedding of a category
 - **Hierarchical architectures**
     - ☐ Multi-layer architectures
 - **Examples**

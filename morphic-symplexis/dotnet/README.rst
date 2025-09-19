@@ -169,10 +169,10 @@ F# library
 Examples
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
-- **Examples using csx scripts:**
+- **Examples using .csx stand-alone scripts:**
     - ☑ Examples of various configurations in a free category
     - ☐ Examples of various configurations in a non-free category
-- **Examples using fsx scripts:**
+- **Examples using .fsx stand-alone scripts:**
     - TBD
 
 

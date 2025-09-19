@@ -42,11 +42,11 @@ About
 
 This framework was implemented using **Lean 4**, **Rocq** (formerly Coq), **C#** and **F#** (via `.NET Core 6.0.428 <https://dotnet.microsoft.com/en-us/download/dotnet/6.0>`_).
 
-The main components of this software framework are the following:
+The main **components** of this software framework are the following:
 
-- C# and F# (.NET) library
-- Lean library
-- Rocq library
+- `C# and F# (.NET) library </morphic-symplexis/dotnet/README.rst>`_
+- `Lean library </morphic-symplexis/lean/README.rst>`_
+- `Rocq library </morphic-symplexis/rocq/README.rst>`_
 
 Minimum hardware and software requirements
 --------------------------------------------------

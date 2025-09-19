@@ -14,10 +14,6 @@ morphic-symplexis
 
 |
 
-About
--------------------------
-
-This repository was implemented using **Lean 4**, **Rocq** (formerly Coq), **C#** and **F#** (via `.NET Core 6.0.428 <https://dotnet.microsoft.com/en-us/download/dotnet/6.0>`_).
 
 Downloading
 -------------------------
@@ -35,6 +31,40 @@ To download this repository, there are currently two mains options:
 You can choose whichever best suits your needs.
 
 **Note:** If you do not have Git on **Windows**, then you can download it `here <https://git-scm.com/download/win>`_.
+
+Setup and installation
+-------------------------
+
+*Coming soon*
+
+About
+-------------------------
+
+This repository was implemented using **Lean 4**, **Rocq** (formerly Coq), **C#** and **F#** (via `.NET Core 6.0.428 <https://dotnet.microsoft.com/en-us/download/dotnet/6.0>`_).
+
+Minimum hardware and software requirements
+--------------------------------------------------
+
+Any Operating System from the following list `that can run .NET Core 6.0 <https://github.com/dotnet/core/blob/d05daa63eee32469e6b2b19a1e51e2af1e4aae9c/release-notes/6.0/supported-os.md>`_:
+
+- All major Linux distributions (after 2016)
+- macOS Catalina (version 10.15) or later
+- MS Windows 10 or later
+
+Minimum hardware requirements:
+
+- Any CPU (no GPU necessary)
+- 2GB RAM
+
+Acknowledgements
+----------------
+
+See `Acknowledgements <ACKNOWLEDGEMENTS.rst>`_.
+
+References
+----------
+
+See `References <REFERENCES.rst>`_.
 
 License 
 -------------------------

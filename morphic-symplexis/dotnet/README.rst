@@ -89,7 +89,7 @@ Legend:
   "Optional" = indirect or optional use   |br|
   ``.csx`` and ``.fsx`` are C# and F# single script files, respectively
 
-Roadmap and Functionalities
+Roadmap and functionalities
 ---------------------------------
 
 C# library
@@ -154,9 +154,7 @@ Below is an outline of *currently implemented* and *planned* **category-theoreti
     - ☐ Yoneda and co-Yoneda
 - **Hierarchical architectures**
     - ☐ Multi-layer architectures
-- **Examples**
-    - ☑ Examples of various configurations in a free category
-    - ☐ Examples of various configurations in a non-free category
+
 |br|
 
 Below is an outline of *currently implemented* and *planned* **functionalities** (such as helper classes and utils):
@@ -167,6 +165,15 @@ Below is an outline of *currently implemented* and *planned* **functionalities**
 F# library
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 - TBD
+
+Examples
+^^^^^^^^^^^^^^^^^^^^^^^^^
+
+- **Examples using csx scripts:**
+    - ☑ Examples of various configurations in a free category
+    - ☐ Examples of various configurations in a non-free category
+- **Examples using fsx scripts:**
+    - TBD
 
 
 .. |br| raw:: html

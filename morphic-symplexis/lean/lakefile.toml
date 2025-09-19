@@ -1,0 +1,18 @@
+name = "morphic-symplexis"
+version = "0.1.0"
+defaultTargets = ["morphic-symplexis"]
+
+[[lean_lib]]
+name = "MorphicSymplexis"
+
+[[require]]
+name = "batteries"
+scope = "leanprover-community"
+
+[[require]]
+name = "mathlib"
+scope = "leanprover-community"
+
+[[lean_exe]]
+name = "morphic-symplexis"
+root = "Main"

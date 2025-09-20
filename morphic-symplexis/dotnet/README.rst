@@ -140,7 +140,7 @@ Below is an outline of *currently implemented* and *planned* **category-theoreti
     - ☐ Pullbacks and pushouts
     - ☐ Initial and terminal objects
     - ☐ Equalizers and coequalizers
-    - ☐ Algebras and coalgebras
+    - ☐ Algebras(i.e. F-algebras) and coalgebras
     - ☐ Ends and coends
     - ☐ Free and cofree objects
     - ☐ Free and cofree monoid

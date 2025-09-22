@@ -1,7 +1,7 @@
 References
 ==========
 
-**Summary:** Non-exhaustive list of references to **books**, **articles** and **libraries** used in this repository (provided that a paper was released).
+**Summary:** Non-exhaustive list of references to **books**, **articles** and third-party **libraries** used in this repository (provided that a paper was released).
 
 |
 

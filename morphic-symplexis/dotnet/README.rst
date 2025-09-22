@@ -3,7 +3,7 @@ C# and F# library (.NET)
 
 |
 
-**Summary:** This is a C# and F# library for **Category Theory** and **Systems Verification** implemented using the .NET Core framework.
+**Summary:** This is a C# and F# library for **Representation Theory**, **abstract structures** and their **formal models** implemented using the .NET Core framework.
 
 |
 

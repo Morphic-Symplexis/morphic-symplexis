@@ -40,7 +40,7 @@ Setup and installation
 About
 -------------------------
 
-This framework was implemented using **Lean 4**, **Rocq** (formerly Coq), **C#** and **F#** (via `.NET Core 6.0.428 <https://dotnet.microsoft.com/en-us/download/dotnet/6.0>`_). The ``morphic-symplexis`` framework is **fully Open-Source** and it does *not* rely on any Closed-Source language, framework, library, etc.
+This framework was implemented using **Lean 4**, **Rocq** (formerly Coq), **C#** and **F#** (via `.NET Core 6.0.428 <https://dotnet.microsoft.com/en-us/download/dotnet/6.0>`_). The ``morphic-symplexis`` framework is |fully Open-Source|, as it does *not* rely on any Closed-Source language, framework, library, etc.
 
 The main **components** of this software framework are the following:
 
@@ -80,3 +80,7 @@ License
 .. |br| raw:: html
 
   <br/>
+
+.. |fully Open-Source| raw:: html
+
+  <b><i>fully Open-Source</i></b>

@@ -6,7 +6,7 @@ morphic-symplexis
   :alt: License
 |
 
-**Summary:** ``morphic-symplexis`` is a software framework for **Systems Verification** of categories, theories and metatheories in Lean, Rocq (formerly Coq), C# and F#. It is primarily focused on Formal Verification of Classical Mathematics and Metamathematics, but it is envisaged to also include Verification of Continuous and Hybrid Systems in the future.
+**Summary:** ``morphic-symplexis`` is a software framework for **Systems Verification** of categories, Theories and Meta Theories in Lean, Rocq (formerly Coq), C# and F#. It is primarily focused on Formal Verification of Classical Mathematics and Metamathematics, but it is envisaged to also include Verification of Continuous and Hybrid Systems in the future.
 
 |
 

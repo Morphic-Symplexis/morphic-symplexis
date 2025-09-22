@@ -14,7 +14,9 @@ C# and F# library (.NET)
 About
 ---------------------------------
 
-This library demonstrates computational *definitions* (i.e. models) and *compositions* of various **categories** using both C# and F# within a single .NET solution, including *interoperability* between the two languages. It aims to provide a solid foundation for representing, experimenting with, and extending **category-theoretic structures** and **system-theoretic constructions** (e.g., *universal construction*, *ambient construction*, *hierarchical architectures*) for modelling categories, morphisms and (categorical) objects within a .NET environment. The goal is not merely to implement abstract definitions, but also to provide concrete examples, tools, and reusable components that can serve educational and research purposes alike.
+This library demonstrates computational *definitions* (i.e. models) and *compositions* of various **categories** using both C# and F# within a single .NET solution, including *interoperability* between the two languages. It aims to provide a solid foundation for representing, experimenting with, and extending **category-theoretic structures** and **system-theoretic constructions** (e.g., *universal construction*, *ambient construction*, *hierarchical architectures*) for modelling (i.e. synthesizing or designing) categories, morphisms and (categorical) objects within a .NET environment.
+
+Standard Engineering patterns from System Theory, such as **composition and decomposition** or **analysis and synthesis**, are employed in the context of defining *abstract structures* that reside in *multiple hiearchical layers*. As a result, *ontological transformations* (e.g., morphisms, functors, and natural transformations) are treated abstractly in a **unifying way**. The goal is not merely to implement abstract definitions, but also to provide concrete examples, tools, and reusable components that can serve *educational* and *research purposes* alike.
 
 The library was implemented in **C#** and **F#** using the `.NET Core 6.0.428 <https://dotnet.microsoft.com/en-us/download/dotnet/6.0>`_ framework. Given backward compatibility by the .NET maintainers, the library should work with *any later version* of .NET Core, so there is *no need to downgrade* its version if you have already installed a later version.
 
@@ -65,6 +67,8 @@ Example folders
 **Purpose:** Provide examples implemented using (a) *purely* C# code (optionally calling F#), (b) *purely* F# code (optionally calling C#), and (c) a mix-and-match of C# and F# code jointly implemented. Also, provide *quick scripts* (i.e. stand-alone files) for lightweight experimentation without the need to create any projects.
 
 The ``examples/`` folder contains examples implemented using C# and F# code organized in subfolders by language and usage. The table below outlines the purpose of each folder, and how it interacts with the C# and F# libraries.
+
+Stand-alone scripts are recommended for begineers in the Object-Oriented Programming (OOP) paradigm.
 
 |br|
 
@@ -134,6 +138,13 @@ Below is an outline of *currently implemented* and *planned* **category-theoreti
     - ☐ Monoidal categories (i.e. monoids as objects)
     - ☐ Kleisli and co-Kleisli (Eilenberg-Moore) categories
     - ☐ Categories of algebras and coalgebras
+- **Higher Category Theory**
+    - ☐ n-categories
+    - ☐ ∞-groupoids
+    - ☐ ∞-categories
+    - ☐ (∞, n)-categories
+    - ☐ Higher order categories (i.e. ∞-groupoids as objects)
+    - ☐ ∞-cosmoi (i.e. ∞-categories as objects)
 - **Universal constructions**
     - ☐ General definition of limits and colimits
     - ☐ Products and coproducts

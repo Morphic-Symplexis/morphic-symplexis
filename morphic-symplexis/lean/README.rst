@@ -3,7 +3,7 @@ Lean library
 
 |
 
-**Summary:** This is a Lean library for **Category Theory** and **Systems Verification** implemented using mathlib library.
+**Summary:** This is a Lean library for **Category Theory**, **Meta Theories** and **Systems Verification** implemented using mathlib library.
 
 |
 

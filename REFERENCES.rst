@@ -39,6 +39,8 @@ Books, papers and other kinds of articles (e.g., blog posts) relevant to the imp
         - `Homotopy Type Theory Lecture Notes <https://www.cs.uoregon.edu/research/summerschool/summer14/rwh_notes/notes_week8.pdf>`_
         - `Introduction to Homotopy Type Theory <https://arxiv.org/pdf/2212.11082>`_
 - **Multidisciplinary**
+    - Categorical models of internal Logical Systems
+        - 
     - Categorical models of internal Type Theories
         - `Categorical Semantics for Type Theories <https://hustmphrrr.github.io/asset/pdf/comp-exam.pdf>`_
         - `Categorical models of type theory <https://groupoid.moe/pdf/dtt_models.pdf>`_

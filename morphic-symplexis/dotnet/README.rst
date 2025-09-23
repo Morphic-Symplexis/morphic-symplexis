@@ -139,6 +139,7 @@ Below is an outline of *currently implemented* and *planned* **category-theoreti
     - ☐ Kleisli and co-Kleisli (Eilenberg-Moore) categories
     - ☐ Categories of algebras and coalgebras
 - **Higher Category Theory**
+    - ☐ n-groupoids
     - ☐ n-categories
     - ☐ ∞-groupoids
     - ☐ ∞-categories

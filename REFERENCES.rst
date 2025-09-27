@@ -24,6 +24,8 @@ Books, papers and other kinds of articles (e.g., blog posts) relevant to the imp
         - `Higher category theory <https://arxiv.org/abs/2401.14311>`_
         - `An Introduction to n-Categories <https://arxiv.org/abs/q-alg/9705009>`_
 - **Systems Theory**
+    - Wiring diagrams, circuits, active and passive filters
+        - 
     - Automata, formal languages and discrete-time systems
         - `Finite State Machines <https://limsk.ece.gatech.edu/course/ece2020/lecs/lec8.pdf>`_
         - `Introduction to Theoretical Computer Science <https://introtcs.org/>`_
@@ -42,6 +44,8 @@ Books, papers and other kinds of articles (e.g., blog posts) relevant to the imp
         - `Homotopy Type Theory Lecture Notes <https://www.cs.uoregon.edu/research/summerschool/summer14/rwh_notes/notes_week8.pdf>`_
         - `Introduction to Homotopy Type Theory <https://arxiv.org/pdf/2212.11082>`_
 - **Multidisciplinary**
+    - Operadic wiring diagrams
+        - 
     - Categorical models of internal Logical Systems
         - 
     - Categorical models of internal Type Theories

@@ -55,6 +55,8 @@ Books, papers and other kinds of articles (e.g., blog posts) relevant to the imp
         - `Categorical models of type theory <https://groupoid.moe/pdf/dtt_models.pdf>`_
         - `Categorical models of homotopy type theory <https://home.sandiego.edu/~shulman/hottminicourse2012/03models.pdf>`_
         - `∞-Cosmoi for Lean <https://emilyriehl.github.io/infinity-cosmos/blueprint.pdf>`_
+    - Categorical models of automata and Algebraic Language Theory
+        - 
 
 |br|
 *PS. The term "higher-dimensional" categories is a misnomer, and it should be read as "higher-order" categories (inside a hierarchical architeacture).*
